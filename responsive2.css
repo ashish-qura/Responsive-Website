@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header
+{
+    padding-top: 12px;
+    margin: auto;
+    display: flex;
+    width: 90%;
+    
+}
+.logo,.nav-links,.cart-logo
+{
+  display: flex;
+   
+}
+.logo
+{
+  flex: 1;
+    
+}
+.ph
+{
+  height: 42px
+ 
+}
+.logo-alt
+{
+    padding: 11px
+}
+
+nav 
+{
+    flex: 2;
+}
+
+.nav-links
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aa
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.cart-logo
+{
+   flex: 1; 
+    justify-content: flex-end;
+    height: 42px;
+}
+
+section
+{
+    width: 90%;
+    margin: auto;
+  
+    display: flex;
+    min-height: 80vh;
+	align-items: center;
+}
+.content
+{
+flex: 1;
+}
+
+.content h1
+{
+    font-size: 44px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.content p
+{
+    margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+}
+
+.btn
+{
+    padding: 50px 0px 0px 0px;
+    
+}
+
+
+.btn-triel{
+	border: 2px solid #EAB14D;
+	background: transparent;
+	color: #c36cbb;
+	cursor: pointer;
+	font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+.btn-plans
+{
+    border: 2px solid #EAB14D;
+	background: transparent;
+	color: #c36cbb;
+	cursor: pointer;
+	font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+.btn-triel:hover
+{
+    border: 2px solid #00A861;
+	background: #00DC7F;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+.btn-plans:hover
+{
+    border: 2px solid #00A861;
+	background: #00DC7F;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+    width: 150px;
+    height: 50px;
+}
+.dot-select
+{
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+    padding-top: 22px;
+    
+}
+.dot-select img
+{
+	padding: 0 12px;
+    
+}
+.back-cover
+{
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transform: translate(-10%,30%)
+    
+    
+}
+
+
+
+
+
